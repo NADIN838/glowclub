@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Оплата Glow Club</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  body {
+    margin: 0;
+    background: #121212;
+    color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  header { text-align: center; }
+  header h1 {
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.2em;
+  }
+  header p {
+    font-size: 1.1rem;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .payments {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .payment-btn {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px 30px;
+    width: 220px;
+    box-shadow: 0 0 8px #ff4081;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .payment-btn:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px #ff4081;
+  }
+  .payment-btn svg { width: 60px; height: 60px; margin-bottom: 12px; }
+  footer {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 60px;
+    text-align: center;
+    max-width: 400px;
+  }
+  footer a { color: #ff4081; font-weight: bold; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Glow Club ✨</h1>
+  <p>Оплата <strong>500 грн</strong> за місячний доступ до клубу, де зібрана уся інформація, яку ти завжди шукав і не міг знайти. 🍑💪</p>
+</header>
+<div class="payments">
+  <a class="payment-btn" href="https://send.monobank.ua/9H8izEFict" target="_blank">
+    <!-- Monobank logo (official style) -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+      <rect width="1024" height="1024" rx="200" fill="#000"/>
+      <circle cx="512" cy="512" r="300" fill="#fff"/>
+    </svg>
+    Monobank
+  </a>
+  <a class="payment-btn" href="https://www.privat24.ua/rd/send_qr/liqpay_static_qr/payment_2685707029.3a45489804e734af9c1a3265d3a6d4d72e6fd1c243e17314458fb2777f3a19fe" target="_blank">
+    <!-- Privat24 official -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <rect width="512" height="512" rx="50" fill="#1ba548"/>
+      <path fill="#fff" d="M180 150h100v200h-50v-150h-50zM292 150h100v50h-50v150h-50z"/>
+    </svg>
+    Privat24
+  </a>
+  <a class="payment-btn" href="mailto:kosholapnadia@gmail.com" target="_blank">
+    <!-- PayPal official -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <rect width="512" height="512" rx="50" fill="#003087"/>
+      <path fill="#fff" d="M220 160h90c40 0 70 30 70 70s-30 70-70 70h-60l-20 90h-50z"/>
+    </svg>
+    PayPal
+  </a>
+</div>
+<footer>
+  З любов’ю від Glow Club ✨<br><br>
+  По всім питанням звертайтесь у <a href="https://t.me/Helper1_1" target="_blank">підтримку</a><br>
+  Там допоможуть з оплатою, якщо щось не виходить, і по іншим питанням, які вас турбують
+</footer>
+</body>
+</html>
